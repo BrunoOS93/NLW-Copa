@@ -10,7 +10,7 @@ function createGame(player1, hour, player2) {
 
 function createCard(date, day, games) {
    return `
-  <div class="card" style="animation-delay: ${delay}s">
+  <div class="card">
                 <h2>${date} <span>${day}</span></h2>
                 <ul>
                     ${games}
